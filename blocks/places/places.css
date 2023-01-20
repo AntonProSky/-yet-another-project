@@ -1,0 +1,28 @@
+.places {
+  display: grid;
+  grid-template-columns: 100%;
+  max-width: calc(100% - 148px);
+  padding-bottom: 92px;
+  margin: auto;
+}
+@media (max-width: 1023px) {
+  .places {
+    padding-bottom: 92px;
+    width: calc(100% - 96px);
+  }
+}
+
+@media (max-width: 767px) {
+  .places {
+    padding-bottom: 90px;
+    width: calc(100% - 48px);
+    max-width: 768px;
+  }
+}
+@media (max-width: 319px) {
+  .places {
+    max-width: 320px;
+    padding-bottom: 66px;
+    width: calc(100% - 16px);
+  }
+}
