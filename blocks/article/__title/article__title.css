@@ -1,0 +1,15 @@
+.article__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 40px;
+}
+@media (max-width: 700px) {
+  .article__title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
