@@ -13,7 +13,7 @@
 }
 @media (max-width: 767px) {
   .header {
-    max-width: calc(100% - 48);
+    max-width: calc(100% - 48px);
   }
 }
 @media (max-width: 380px) {
