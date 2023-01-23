@@ -1,5 +1,5 @@
-.article__main-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.article__main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
