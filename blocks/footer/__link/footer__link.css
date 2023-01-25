@@ -7,6 +7,10 @@
   line-height: 18px;
   align-self: flex-start;
   margin: 0;
+  opacity: 1;
+}
+.footer__link:hover {
+  opacity: 0.8;
 }
 @media (max-width: 640px) {
   .footer__link {

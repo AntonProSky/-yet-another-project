@@ -1,6 +1,7 @@
 .lead {
-  margin: 0;
+  margin: auto;
   display: flex;
   position: relative;
   flex-direction: column;
+  max-width: 100%;
 }

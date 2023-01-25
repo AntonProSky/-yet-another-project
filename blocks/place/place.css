@@ -5,23 +5,22 @@
   padding-bottom: 80px;
   gap: 48px 40px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .place {
-    grid-template-columns: repeat(2, minmax(340px, 456px));
-    max-width: calc(100% - 96px);
+    gap: 48px 32px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .place {
-    grid-template-columns: repeat(2, minmax(340px, 352px));
-    max-width: calc(100% - 48px);
+    gap: 48px 28px;
   }
 }
-@media (max-width: 677px) {
+@media (max-width: 700px) {
   .place {
     display: flex;
     flex-direction: column;
-    max-width: calc(100% - 32px);
+    gap: 32px 0;
+    max-width: calc(100% - 16px);
   }
 }
 .place:last-child {

@@ -4,3 +4,13 @@
   flex-direction: column;
   margin: auto;
 }
+@media (max-width: 1024px) {
+  .lead__section {
+    max-width: calc(100% - 96px);
+  }
+}
+@media (max-width: 768px) {
+  .lead__section {
+    max-width: 100%;
+  }
+}
