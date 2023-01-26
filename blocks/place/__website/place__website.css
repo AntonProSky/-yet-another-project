@@ -13,3 +13,8 @@
     align-self: flex-start;
   }
 }
+@media (max-width: 320px) {
+  .place__website {
+    margin: 0 16px;
+  }
+}

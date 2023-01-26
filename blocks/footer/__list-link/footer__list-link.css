@@ -10,5 +10,6 @@
   .footer__list-link {
     flex-direction: column;
     padding-bottom: 48px;
+    gap: 32px 0;
   }
 }
